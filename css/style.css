@@ -7,3 +7,9 @@
 @import "./primitives/index.css";
 @import "./home-sections/product.css";
 @import "./home-sections/products.css";
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
