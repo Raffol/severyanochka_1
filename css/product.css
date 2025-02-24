@@ -24,6 +24,9 @@
 
 .product__tags {
 }
+.fav__products{
+
+}
 
 .product__favourite {
     position: absolute;
@@ -84,4 +87,26 @@
 
 .product__button {
     width: 100%;
+}
+
+.masks {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.springvibe {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.fastfood {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }

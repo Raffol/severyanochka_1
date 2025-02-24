@@ -7,6 +7,7 @@
 @import "./primitives/index.css";
 @import "./product.css";
 @import "./products.css";
+@import "./footer.css";
 
 html, body{
     width: 100%;
@@ -21,9 +22,41 @@ ul{
     margin-left: 50px;
 }
 .special__offersales{
+    margin-left: 116px;
     display: flex;
     gap: 40px;
     flex-direction: row;
     align-items: center;
+}
+.articles{
+    margin-left: 116px;
+    display: flex;
+    /*flex-direction: row;*/
+    align-items: center;
+    gap: 1000px;
+}
+.three{
+    margin-left: 116px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.maps__tabs{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.maps__tabs button{
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.maps__tabs button:hover{
+    color: white;
+    background-color: #70c05b;
+}
+.page__maps{
+    margin-left: 116px;
 }
 
