@@ -14,6 +14,9 @@ html, body{
     height: 100%;
 
 }
+main{
+    background-color: #FBF8EC;
+}
 
 ul{
     list-style: none;
@@ -27,6 +30,7 @@ ul{
     gap: 40px;
     flex-direction: row;
     align-items: center;
+    background-color: white;
 }
 .articles{
     margin-left: 116px;
