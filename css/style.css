@@ -78,3 +78,9 @@ ul {
 	color: var(--white);
 	border: 1px solid var(--primary);
 }
+
+.container {
+	max-width: 1470px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
