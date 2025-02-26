@@ -84,3 +84,20 @@ ul {
 	padding: 0 15px;
 	margin: 0 auto;
 }
+.add-to-card{
+	margin-top: 10px;
+	border: 1px solid greenyellow;
+	padding: 10px;
+	width: 150px;
+	display: flex;
+	border-radius: 10px;
+}
+.add-to-card:hover{
+	background-color: var(--primary);
+	color: var(--white);
+}
+.articles{
+
+}
+
+

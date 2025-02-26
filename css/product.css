@@ -3,6 +3,9 @@
 	background-color: var(--white);
 	flex: 0 1 25%;
 }
+.products__item div{
+	margin-left: 5px;
+}
 .product {
 }
 
@@ -88,7 +91,7 @@
 	width: 100%;
 }
 
-.masks {
+/*.masks {
 	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
@@ -108,4 +111,4 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 20px;
-}
+}*/
