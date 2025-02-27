@@ -2,6 +2,7 @@
 	box-shadow: 1px 3px 4px 0 #0000001a;
 	background-color: var(--white);
 	flex: 0 1 25%;
+
 }
 .products__item div{
 	margin-left: 5px;
@@ -28,6 +29,9 @@
 .product__tags {
 }
 .fav__products {
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 100px;
 }
 
 .product__favourite {
