@@ -20,17 +20,7 @@ main {
 ul {
 	list-style: none;
 }
-.special__offers {
-	margin-left: 50px;
-}
-.special__offersales {
-	margin-left: 116px;
-	display: flex;
-	gap: 40px;
-	flex-direction: row;
-	align-items: center;
-	background-color: white;
-}
+
 .articles {
 	margin-left: 116px;
 	display: flex;
@@ -82,7 +72,7 @@ ul {
 .container {
 	max-width: 1470px;
 	padding: 0 15px;
-	margin: 0 auto;
+	margin: 15px auto;
 }
 .add-to-card{
 	margin-top: 10px;

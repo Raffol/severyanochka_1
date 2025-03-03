@@ -94,6 +94,46 @@
 .product__button {
 	width: 100%;
 }
+.discount p{
+	/*border: 3px solid orange;*/
+
+	border-width: 0.3em 0	;
+	background-color: #ff6633;
+}
+.price{
+	display: flex;
+	gap: 75px;
+	margin-top: 10px;
+}
+.price-bold{
+	font-weight: bold;
+}
+.about{
+	margin: 30px 8px;
+}
+.special__offers {
+	margin-left: 15px;
+	display: flex;
+	flex-direction: row;
+	background-color: #FCD5BA;
+}
+.special__sales{
+background-color: #E5FFDE;
+}
+.special__offersales {
+	margin-left: 15px;
+	display: flex;
+	gap: 40px;
+	flex-direction: row;
+	align-items: center;
+	background-color: white;
+}
+.severyanochka_card{
+	display: flex;
+}
+.severyanochka_card-text{
+	margin: 50px auto;
+}
 
 /*.masks {
 	margin-top: 20px;
