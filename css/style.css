@@ -13,6 +13,10 @@ body {
 	width: 100%;
 	height: 100%;
 }
+body {
+	font-family: "Rubik", sans-serif;
+	color: var(--foreground);
+}
 main {
 	background-color: #fbf8ec;
 }
@@ -74,7 +78,7 @@ ul {
 	padding: 0 15px;
 	margin: 15px auto;
 }
-.add-to-card{
+.add-to-card {
 	margin-top: 10px;
 	border: 1px solid greenyellow;
 	padding: 10px;
@@ -82,12 +86,9 @@ ul {
 	display: flex;
 	border-radius: 10px;
 }
-.add-to-card:hover{
+.add-to-card:hover {
 	background-color: var(--primary);
 	color: var(--white);
 }
-.articles{
-
+.articles {
 }
-
-
