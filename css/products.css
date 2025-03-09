@@ -1,3 +1,35 @@
+
+.page__products {
+	padding-top: 10px;
+}
+.products {
+}
+
+.products__header {
+	display: flex;
+	width: 100px;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 40px;
+	margin-top: 50px;
+	gap: 1000px;
+}
+.products__title {
+}
+.products__link {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.products__items {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 20px;
+}
+.special_offers{
+	margin-left: 15px;
+}
+
 .page__products {
 	padding-top: 10px;
 }
