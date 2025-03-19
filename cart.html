@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+            src="https://api-maps.yandex.ru/2.1/?apikey=986d3b28-31ba-4d84-a902-6e0356fbd76c&lang=ru_RU"
+            type="text/javascript"
+    ></script>
+        <title>Title</title>
+</head>
+<body>
+<header></header>
+
+<main class="page">
+    <section class="page__cart cart">
+        <div class="container">
+            <h1 class="cart__title">Корзина</h1>
+            <div class="cart__body">
+                <div class="cart__block">
+                    <ul class="cart__controls">
+                        <li class="cart__control">
+                            <button class="cart__select" type="button">
+                            <div class="button-icon minus active"></div>
+                            <span>Выделить всё</span>
+                        </button>
+                        </li>
+                        <li class="cart__control">
+                            <button class="cart__delete" type="button">
+                                Удалить выбранные
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="cart__items">
+                        <article class="cart__item item__cart">
+                            <button
+                                    class="item-cart__selector button-icon active"
+                            ></button>
+                            <img
+                                    src="img/cart/01.png"
+                                    alt="item"
+                                    class="item-cart__image"
+                            >
+                            <div class="item-cart__body">
+                                <h3 class="item-cart__title">
+                                    Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»
+                                </h3>
+                                <div class="item-cart__info">
+                                    <div
+                                            data-price-with-card="44,50"
+                                            class="item-cart__price-with-card">
+                                        <span>44,50 p</span>
+                                        <span>С картой</span>
+                                    </div>
+                                    <div
+                                           data-price-without-card="50"
+                                            class="item-cart__price-without-card"
+                                    >
+                                        <span>50 P</span>
+                                        <span>Обычная</span>
+                                    </div>
+                                    <span>За шт.</span>
+                                    <div class="item-cart__discount"
+                                    data-discount="-10%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="item-cart__actions">
+                                <div class="item-cart__counter button">
+                                    <button class="item-cart__counter-btn
+                                                    item-cart__counter-reduce"
+                                    >
+                                        -
+                                    </button>
+                                    <span
+                                            data-counter="1"
+                                            class="ite-cart__counter-value"
+                                    ></span>
+                                    <button
+                                            type="button"
+                                            class="item-cart__counter-btn
+                                                    item-cart__counter-increase"
+                                    >
+                                        +
+                                    </button>
+                                </div>
+<!--                                JS-->
+                                <div class="item-cart__price">P</div>
+                            </div>
+                        </article>
+                        <article
+                                class="cart__item
+                                        item-cart
+                                        out-of-stock
+                                        ">
+                            <button class="item-cart__selector
+                                            button-icon
+                                            "></button>
+                            <img
+                                    src="img/cart/01.png"
+                                    alt="item"
+                                    class="item-cart__image"
+                            />
+                            <div class="item-cart__body">
+                                <h3 class="item-cart__title">
+                                    Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»
+                                </h3>
+                                <div class="item-cart__info">
+                                    <div
+                                            data-price-with-card="44,50"
+                                            class="item-cart__price-with-card"
+                                    >
+                                        <span> 44,50 ₽ </span>
+                                        <span> С картой </span>
+                                    </div>
+                                    <div
+                                            data-price-without-card="50"
+                                            class="item-cart__price-without-card"
+                                    >
+                                        <span> 50 ₽ </span>
+                                        <span> Обычная </span>
+                                    </div>
+
+                                    <span> за шт. </span>
+                                    <div
+                                            class="item-cart__discount"
+                                            data-discount="-10%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="item-cart__actions">
+                                <div class="item-cart__out-of-stock">Нет в наличии</div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <form class="cart__control control-cart" method="get">
+                    <div class="control_cart__bonus">
+                        <div class="control-cart__agree">
+                            <div class="switch">
+                                input.
+                            </div>
+                            <span>Списать 200 Р</span>
+                        </div>
+                        <div class="control-cart__capital">
+                            На карте 200 Р
+                        </div>
+                    </div>
+
+                    <div class="control-cart__calc">
+                        <ul class="control-cart__list">
+                            <li class="control-cart__item">
+                                <span class="control-cart__item-title">3 товара</span>
+                                <span class="control-cart__item-value">250,10 P</span>
+                            </li>
+                            <li class="control-cart__item">
+                                <span class="control-cart__item-title">Скидка</span>
+                                <span class="control-cart__item-value control-cart__item-value--highlighted"
+                                >
+                                    -8,01 P
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="control-cart__result">
+                        <div class="control-cart__amount">
+                            <div class="control-cart__amount-title">Итог</div>
+                            <div class="control-cart__amount-value">250,00 P</div>
+                        </div>
+                        <div class="control-cart__getting-bonus">
+                            <img src="img/cart/feather-icon/smile.png" alt="bonus"/>
+                            Вы получаете 100 бонусов
+                        </div>
+                        <div class="control-cart__alert">
+                            Минимальная сумма 1000 Р
+                        </div>
+                        <button
+                                class="control-cart__button"
+                                type="submit"
+                        >
+                             Оформить заказ
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<!--Mobile-->
+
+<nav class="mobile-navbar actions">
+    <div class="mobile-navbar__wrapper">
+        <a href="#" class="mobile-navbar__link">
+            <img src="img/icons/actions/burger.svg" alt="Каталог">
+            <span class="action__text">Каталог</span>
+        </a>
+        <a href="#" class="mobile-navbar__link">
+            <img src="img/icons/actions/01.svg.svg" alt="Каталог">
+            <span class="action__text">Избранное</span>
+        </a>
+        <a href="#" class="mobile-navbar__link">
+            <img src="img/icons/actions/02.svg" alt="Каталог">
+            <span class="action__text">Заказы</span>
+        </a>
+        <a href="#" class="mobile-navbar__link">
+            <img src="img/icons/actions/03.svg.svg" alt="Каталог">
+            <span class="action__text">Корзина</span>
+        </a>
+        <button class="mobile-navbar__link
+                        mobile-navbar__account">
+            <img src="img/avatar.jpg" alt="avatar"
+                 class="account__avatar"
+            /></button>
+    </div>
+</nav>
+<footer></footer>
+
+<script src="js/main.js" type="module"></script>
+<script src="js/search.js" type="module"></script>
+<script src="js/maps.js" type="module"></script>
+<script src="js/products.js" type="module"></script>
+<script src="js/cart.js" type="module"></script>
+</body>
+</html>

@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-@import "./variables.css";
-@import "./nullstyles.css";
-@import "./header.css";
-@import "./product.css";
-@import "./hero.css";
-@import "./products.css";
-@import "./footer.css";
+@import "variables.css";
+@import "nullstyles.css";
+@import "header.css";
+@import "product.css";
+@import "hero.css";
+@import "products.css";
+@import "footer.css";
 
 html,
 body {
@@ -93,13 +93,13 @@ ul {
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-@import "./variables.css";
-@import "./nullstyles.css";
-@import "./header.css";
-@import "./product.css";
-@import "./hero.css";
-@import "./products.css";
-@import "./footer.css";
+@import "variables.css";
+@import "nullstyles.css";
+@import "header.css";
+@import "product.css";
+@import "hero.css";
+@import "products.css";
+@import "footer.css";
 
 html,
 body {

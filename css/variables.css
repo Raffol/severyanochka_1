@@ -4,8 +4,10 @@
   --font: "Rubik", sans-serif;
   --default-size: 16px;
   /* Цвета */
+  --error: #D80000;
   --foreground: #414141;
   --gray: #8f8f8f;
+  --dark-green: #118c4e;
   --green: #70c05b;
   --primary: #ff6633;
   --light: #bfbfbf;
