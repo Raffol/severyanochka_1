@@ -187,7 +187,17 @@
 .control-cart__agree {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 40px;
+}
+
+.control-cart__write-off span{
+    display: flex;
+    padding-top: 7px;
+}
+
+.control-cart__capital span{
+    display: flex;
+
 }
 
 .control-cart__capital {
@@ -201,6 +211,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 50px;
 }
 
 .control-cart__item {
@@ -227,6 +238,8 @@
     display: inline-flex;
     flex-direction: column;
     gap: 8px;
+    margin-top: 50px;
+
 }
 
 .control-cart__amount {
@@ -305,7 +318,7 @@
     border-radius: 50%;
     position: absolute;
     top: 1px;
-    left: 2px;
+    left: 1px;
     transition: left 0.3s, background-color 0.3s;
 }
 toggle-checkbox:checked + .toggle-button{
