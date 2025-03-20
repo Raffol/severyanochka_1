@@ -1,25 +1,13 @@
-const quantities = document.querySelectorAll('.item-cart__counter');
-
-[...quantities].forEach(function (quantity) {
-    const minusButton = quantity.querySelector('.item-cart__counter-reduce');
-    const plusButton = quantity.querySelector('.item-cart__counter-increase');
-    const inputField = quantity.querySelector('.item-cart__price');
-
-    minusButton.addEventListener('click', function minusProduct() {
-       const currentValue = Number(inputField.value);
-        console.log(minusButton.value);
-       if (currentValue > 0){
-           inputField.value = currentValue - 1;
-       }else{
-           inputField.value = 0;
-       }
-
-    });
-    plusButton.addEventListener('click', function plusProduct(){
-        const currentValue = Number(inputField.value);
-        inputField.value = currentValue + 1;
-    });
-})
+//Счётчик
+let count = 0;
+document.getElementById(".item-cart__counter-reduce").onclick = function() {
+    count -= 1;
+    document.getElementById("item-cart__counter-reduce").innerHTML = count;
+}
+document.getElementById(".item-cart__counter-increase").onclick = function() {
+    count += 1;
+    document.getElementById("item-cart__counter-increase").innerHTML = count;
+}
 
 //Тумблер списания
 document.getElementById('switch-btn').addEventListener('change', function () {

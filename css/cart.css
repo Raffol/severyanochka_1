@@ -5,6 +5,7 @@
 }
 
 .container {
+
 }
 
 .cart__title {
@@ -192,11 +193,15 @@
 
 .control-cart__write-off span{
     display: flex;
+    flex-direction: column;
     padding-top: 7px;
 }
 
 .control-cart__capital span{
     display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: -140px;
 
 }
 
