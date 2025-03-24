@@ -68,8 +68,8 @@
                             </div>
                             <div class="item-cart__actions">
                                 <div class="item-cart__counter button">
-                                    <button class="item-cart__counter-btn
-                                                    item-cart__counter-reduce"
+                                    <button class="item-cart__counter-btn"
+                                            id="item-cart__counter-reduce"
                                     >
                                         -
                                     </button>
@@ -77,16 +77,19 @@
                                             data-counter="1"
                                             class="ite-cart__counter-value"
                                     ></span>
+                                    <label id="countLabel">0</label>
                                     <button
                                             type="button"
-                                            class="item-cart__counter-btn
-                                                    item-cart__counter-increase"
+                                            class="item-cart__counter-btn"
+                                            id="item-cart__counter-increase"
                                     >
                                         +
                                     </button>
                                 </div>
 <!--                                JS-->
-                                <div class="item-cart__price">P</div>
+                                <div class="item-cart__price">
+                                    <label id="#">0 P</label>
+                                </div>
                             </div>
                         </article>
                         <article
@@ -144,15 +147,13 @@
                                     <span class="toggle-button"></span>
                                 </label>
                         </div>
-                            <div class="control-cart__all">
-                                <div class="control-cart__write-off">
+                            <div class="control-cart__write-off">
                                 <span>Списать 200 Р</span>
                             </div>
                             <div class="control-cart__capital">
                                 <span>На карте 200 Р</span>
                         </div>
-                    </div>
-                    </div>
+                         </div>
                     <div class="control-cart__calc">
                         <ul class="control-cart__list">
                             <li class="control-cart__item">
@@ -225,6 +226,6 @@
 <script src="js/search.js" type="module"></script>
 <script src="js/maps.js" type="module"></script>
 <script src="js/products.js" type="module"></script>
-<script src="js/cart.js" type="module"></script>
+<script src="js/cart.js"></script>
 </body>
 </html>
