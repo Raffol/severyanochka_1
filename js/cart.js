@@ -1,8 +1,11 @@
 //Счётчик
 let count = 0;
 document.getElementById("item-cart__counter-reduce").onclick = function(){
-
-    count -=1;
+    if (count <= 0 ){
+        count = 0;
+    }else{
+        count -=1;
+    }
     document.getElementById("countLabel").innerHTML = count;
 }
 document.getElementById("item-cart__counter-increase").onclick = function(){
