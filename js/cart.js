@@ -22,3 +22,6 @@ document.getElementById('switch-btn').addEventListener('change', function () {
         console.log('OFF');
     }
 });
+
+//Выделить всё
+document.getElementById("")

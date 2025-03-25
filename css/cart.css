@@ -333,3 +333,24 @@ toggle-checkbox:checked + .toggle-button{
     left: 31px;
     background-color: var(--white);
 }
+.cart__select-cart{
+    height: 25px;
+    width: 25px;
+    border-radius: 3px;
+    background: var(--green);
+    color: var(--white)
+}
+.cart__select-mark{
+    height: 25px;
+    width: 25px;
+    border-radius: 3px;
+    background: var(--green);
+    color: var(--white);
+}
+.cart__select-unmark{
+    height: 25px;
+    width: 25px;
+    border-radius: 3px;
+    background: var(--green);
+    color: var(--white);
+}
