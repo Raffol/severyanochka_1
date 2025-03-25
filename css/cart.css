@@ -337,8 +337,12 @@ toggle-checkbox:checked + .toggle-button{
     height: 25px;
     width: 25px;
     border-radius: 3px;
-    background: var(--green);
+    background: transparent;
     color: var(--white)
+}
+.cart__select-cart.highlighted{
+    background: var(--green);
+
 }
 .cart__select-mark{
     height: 25px;

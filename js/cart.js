@@ -24,6 +24,11 @@ document.getElementById('switch-btn').addEventListener('change', function () {
 });
 
 //Выделить всё
-document.getElementById('cart__select-cart').addEventListener('click', function () {
-    this.style.background = 'transpend';
+button.addEventListener('click', function(){
+    button.classList.toggle('active');
+    if (button.classList.contains('active')) {
+        button.style.background="green"
+    }else{
+        button.style.background="transparent"
+    }
 });
