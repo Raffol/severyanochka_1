@@ -337,10 +337,6 @@ toggle-checkbox:checked + .toggle-button{
     height: 25px;
     width: 25px;
     border-radius: 3px;
-    background: transparent;
-    color: var(--white)
-}
-.cart__select-cart.highlighted{
     background: gray;
     color: var(--white)
 }
@@ -352,15 +348,6 @@ toggle-checkbox:checked + .toggle-button{
     height: 25px;
     width: 25px;
     border-radius: 3px;
-    background: var(--green);
-    color: var(--white);
-}
-.cart__select-unmark{
-    height: 25px;
-    width: 25px;
-    border-radius: 3px;
-    background: var(--green);
-    color: var(--white);
     background: gray;
     color: var(--white);
 }
