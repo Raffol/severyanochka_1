@@ -341,12 +341,14 @@ toggle-checkbox:checked + .toggle-button{
     color: var(--white)
 }
 .cart__select-cart.active{
-    background: var(--green);
-
+    background: green;
 }
 .cart__select-mark{
     height: 25px;
     width: 25px;
+    margin-right: 10px;
+    margin-left: -70px;
+    margin-top: -10px;
     border-radius: 3px;
     background: gray;
     color: var(--white);

@@ -17,8 +17,6 @@ function updateCartPrice() {
     priceElement.innerHTML = (basePrice * count) + " P";
 }
 
-
-
 //Тумблер списания
 document.getElementById('switch-btn').addEventListener('change', function () {
     if (this.checked){
@@ -28,15 +26,15 @@ document.getElementById('switch-btn').addEventListener('change', function () {
     }
 });
 
-//Выделить всё
-// const button = document.getElementById('cart__select-mart');
-document.addEventListener('click', function () {
-    const button = document.getElementById('cart__select-cart');
-
-    button.classList.toggle('active');
-    if (button.classList.contains('active')){
-        button.style.background = 'gray';
-    }else{
-        button.style.background = 'green';
-    }
-})
+//Выделить всё и смена цвета
+/*
+const grayC = document.querySelector('.cart__select-cart, .');
+grayC.addEventListener('click', function () {
+   document.style.background = 'green';
+});*/
+document.addEventListener('DOMContentLoaded', function () {
+    const cartSelectCart = document.querySelector('.cart__select-cart');
+    cartSelectCart.addEventListener('click', function () {
+        cartSelectCart.classList.toggle('active');
+    });
+});
