@@ -13,6 +13,10 @@
 }
 .catalog__products{
     display: grid;
+<<<<<<< HEAD
+=======
+    position: relative;
+>>>>>>> 5049404 (fix: начал делать карту)
     grid-template-columns: repeat(4,1fr);
     gap: 40px;
     @media (max-width: 1024px) {
