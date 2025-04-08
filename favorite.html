@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+            name="description"
+            content="Северяночка. Магазин по доставке продуктов. Доставка от 1000₽ бесплатно"
+    />
+    <meta
+            name="keywords"
+            content="северяночка, магазин, по доставке, продукты, доставка, от 1000₽, бесплатно"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/favorites.css" />
+    <link rel="stylesheet" href="./css/burger.css" />
+    <link rel="stylesheet" href="./css/nullstyles.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/tabs.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+
+
+    <title>Избранное</title>
+</head>
+<body>
+<!--<header class="header">
+    <div class="container">
+        <div class="header__body">
+            <a href="index.html" class="header__logo">
+                <img
+                        class="header__logo_big"
+                        src="img/logo.svg"
+                        alt="Северяночка"
+                />
+                <img class="header__logo_small" src="img/icon.svg" alt=":)" />
+            </a>
+            &lt;!&ndash; Каталог &ndash;&gt;
+            <div data-spollers class="header__catalog catalog">
+                <button data-spoller class="catalog__button button" type="button">
+                    <div class="burger">
+                  <span class="burger__line burger__line&#45;&#45;top"></span
+                  ><span class="burger__line burger__line&#45;&#45;middle"></span
+                    ><span class="burger__line burger__line&#45;&#45;bottom"></span>
+                    </div>
+                    <span class="catalog__button_text">Каталог</span>
+                </button>
+                <ul class="catalog__list">
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">Молоко</a>
+                    </li>
+                </ul>
+            </div>
+            &lt;!&ndash;  &ndash;&gt;
+
+            &lt;!&ndash; Поиск &ndash;&gt;
+            <form action="#" method="get" class="header__search search field">
+                <input
+                        autocomplete="off"
+                        type="text"
+                        name="term"
+                        placeholder="Найти товар"
+                        class="search__field"
+                />
+                <button class="search__button" type="submit">
+                    <img src="img/icons/search.svg" alt="Поиск" />
+                </button>
+
+                <ul class="search__list"></ul>
+            </form>
+            &lt;!&ndash;  &ndash;&gt;
+
+            &lt;!&ndash; Actions &ndash;&gt;
+            <div class="header__actions actions">
+                <ul class="actions__list">
+                    <li class="actions__item">
+                        <a href="#" class="actions__link">
+                            <img src="img/icons/actions/01.svg" alt="01" />
+                            <span class="actions__text">Избранное</span></a
+                        >
+                    </li>
+                    <li class="actions__item">
+                        <a href="#" class="actions__link">
+                            <img src="img/icons/actions/02.svg" alt="02" />
+                            <span class="actions__text">Заказы</span></a
+                        >
+                    </li>
+                    <li data-count="1" class="actions__item">
+                        <a href="#" class="actions__link">
+                            <img src="img/icons/actions/03.svg" alt="03" />
+                            <span class="actions__text">Корзина</span></a
+                        >
+                    </li>
+                </ul>
+            </div>
+            &lt;!&ndash;  &ndash;&gt;
+
+            &lt;!&ndash; Личный кабинет (ЛК) &ndash;&gt;
+            <div data-spollers class="header__account account">
+                <div class="account__body" data-spoller>
+                    <img
+                            src="img/avatar.jpg"
+                            alt="avatar"
+                            class="account__avatar"
+                    />
+                    <div class="account__info">
+                        <div class="account__name">Алексей</div>
+                        <button class="account__button" type="button">
+                            <img src="img/icons/arrow-down.svg" alt="arrow-down" />
+                        </button>
+                    </div>
+                </div>
+                <ul class="account__list">
+                    <li class="account__item">
+                        <a href="#" class="account__link">Панель управления</a>
+                    </li>
+                    <li class="account__item">
+                        <a href="#" class="account__link">Уведомления</a>
+                    </li>
+                    <li class="account__item">
+                        <a href="#" class="account__link">Выйти</a>
+                    </li>
+                </ul>
+            </div>
+            &lt;!&ndash;  &ndash;&gt;
+        </div>
+    </div>
+</header>-->
+<main class="page">
+    <div class="favorites container">
+        <div class="breadcrumbs">
+            <span>Главная</span>
+            <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z"
+                        fill="#414141"
+                />
+            </svg>
+            <span class="breacrumbs__current">Избранное</span>
+        </div>
+        <h1 class="favorites__title title">Избранное</h1>
+        <div class="favorites__content">
+            <div class="favorites__filters filters">
+                <h3 class="filters__title">Фильтр</h3>
+                <form action="#" method="get" class="filters__form filters-form">
+                    <div class="filters-form__field">
+                        <div class="filters-for__label">
+                            <label>Цена</label>
+                            <a
+                                    href="?"
+                                    class="filters-form__clear-button button button-secondary"
+                            >
+                                Очистить
+                            </a>
+                        </div>
+                        <div class="filters-form__item">
+                            <div class="filters-form__range-inputs">
+                                <input type="number"
+                                       name="price_from"
+                                       class="input"
+                                       value="1"
+                                       min="1"
+                                       max="10000"
+                                />
+                                <span> - </span>
+                                <div id="filters-range" class="filters-form__range">
+                                    <input type="range"
+                                            id="fromSlider"
+                                           class="favorites-form__price-from"
+                                           value="1"
+                                           min="1"
+                                           max="10000"
+                                    />
+                                    <input type="range"
+                                           id="toSlider"
+                                           class="favorites-form__price-to"
+                                           value="10000"
+                                           min="1"
+                                           max="10000"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filters-form__field">
+                            <button class="filters-form__filter" type="button">
+                                Молоко
+                            </button>
+                            <button class="filters-form__filter" type="button">
+                                Сливки
+                            </button>
+                            <button class="filters-form__filter" type="button">
+                                Яйцо
+                            </button>
+                        </div>
+                        <div class="filters-form__field">
+                            <div class="filters-form__label">
+                                <div class="switch" data-switch>
+                                    <div class="switch__input" data-switch-input>
+                                        <input type="checkbox" name="stock" checked />
+                                    </div>
+                                </div>
+                                <label id="inStock"
+                                       class="inStock">
+                                    В наличии
+                                </label>
+                            </div>
+                        </div>
+                        <button class="button button-submit">Применить</button>
+                    </div>
+                </form>
+                <div class="favorites__products"></div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script src="./js/main.js" type="module"></script>
+<script src="./js/favorites-filters.js" type="module"></script>
+<script src="./js/search.js" type="module"></script>
+<script src="./js/products.js" type="module"></script>
+</body>
+</html>
